@@ -1,0 +1,27 @@
+# Core ML
+torch
+torchaudio
+torchcodec
+
+# Hugging Face
+datasets
+huggingface-hub
+transformers
+
+# Audio processing
+librosa
+soundfile
+
+# Data processing
+numpy
+pandas
+scikit-learn
+
+# Evaluation
+jiwer
+
+# Visualization
+matplotlib
+
+# Utilities
+tqdm

@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Hugging Face cache
+.hf_cache/
+
+# General cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
