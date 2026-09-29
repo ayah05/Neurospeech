@@ -1,0 +1,36 @@
+NEUROSPEECH WHISPER SUBSET EVALUATION
+================================================================================
+
+Model: openai/whisper-small
+Language: English
+Task: transcription
+Sample: 50 healthy + 50 dysarthria recordings
+Sampling: approximately balanced across speakers
+
+Successful: 100
+Failed: 0
+
+RESULTS BY SPEECH STATUS
+--------------------------------------------------------------------------------
+speech_status  recordings  mean_wer  median_wer  mean_cer  median_cer
+   dysarthria          50     2.011       1.000     7.650       0.543
+      healthy          50     0.243       0.000     0.144       0.000
+
+RESULTS BY SPEAKER
+--------------------------------------------------------------------------------
+speech_status speaker_id  recordings  mean_wer  median_wer  mean_cer  median_cer
+   dysarthria        F01           7     8.942       1.091     8.648       0.673
+   dysarthria        F03           6     0.778       1.000     0.498       0.450
+   dysarthria        F04           6     0.167       0.000     0.139       0.000
+   dysarthria        M01           6     1.238       1.000    50.079       0.833
+   dysarthria        M02           6     1.833       1.500     1.467       1.000
+   dysarthria        M03           6     0.167       0.000     0.067       0.000
+   dysarthria        M04           6     0.980       1.000     0.635       0.647
+   dysarthria        M05           7     1.000       1.000     0.667       0.667
+      healthy       FC01           8     0.000       0.000     0.000       0.000
+      healthy       FC02           7     0.286       0.000     0.131       0.000
+      healthy       FC03           7     0.167       0.000     0.044       0.000
+      healthy       MC01           7     0.429       0.000     0.261       0.000
+      healthy       MC02           7     0.286       0.000     0.129       0.000
+      healthy       MC03           7     0.571       0.000     0.464       0.000
+      healthy       MC04           7     0.000       0.000     0.000       0.000

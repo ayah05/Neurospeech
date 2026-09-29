@@ -1,0 +1,131 @@
+NEUROSPEECH WHISPER SUBSET ANALYSIS
+================================================================================
+
+Recordings: 100
+Speakers: 15
+
+UTTERANCE-LEVEL RESULTS
+--------------------------------------------------------------------------------
+speech_status  recordings  mean_wer  median_wer  std_wer  mean_cer  median_cer  std_cer
+   dysarthria          50     2.011       1.000    7.727     7.650       0.543   42.352
+      healthy          50     0.243       0.000    0.555     0.144       0.000    0.460
+
+CORPUS-LEVEL RESULTS
+--------------------------------------------------------------------------------
+speech_status  recordings  corpus_wer  corpus_cer
+   dysarthria          50       4.466       5.209
+      healthy          50       0.173       0.066
+
+SPEAKER-LEVEL RESULTS
+--------------------------------------------------------------------------------
+speech_status speaker_id  recordings  mean_wer  median_wer  mean_cer  median_cer  corpus_wer  corpus_cer
+   dysarthria        F01           7     8.942       1.091     8.648       0.673      17.185      15.755
+   dysarthria        F03           6     0.778       1.000     0.498       0.450       0.727       0.291
+   dysarthria        F04           6     0.167       0.000     0.139       0.000       0.067       0.068
+   dysarthria        M01           6     1.238       1.000    50.079       0.833       0.833      14.855
+   dysarthria        M02           6     1.833       1.500     1.467       1.000       1.833       1.121
+   dysarthria        M03           6     0.167       0.000     0.067       0.000       0.077       0.032
+   dysarthria        M04           6     0.980       1.000     0.635       0.647       0.941       0.543
+   dysarthria        M05           7     1.000       1.000     0.667       0.667       0.467       0.224
+      healthy       FC01           8     0.000       0.000     0.000       0.000       0.000       0.000
+      healthy       FC02           7     0.286       0.000     0.131       0.000       0.143       0.046
+      healthy       FC03           7     0.167       0.000     0.044       0.000       0.167       0.046
+      healthy       MC01           7     0.429       0.000     0.261       0.000       0.429       0.205
+      healthy       MC02           7     0.286       0.000     0.129       0.000       0.286       0.103
+      healthy       MC03           7     0.571       0.000     0.464       0.000       0.267       0.091
+      healthy       MC04           7     0.000       0.000     0.000       0.000       0.000       0.000
+
+SPEAKER-BALANCED SUMMARY
+--------------------------------------------------------------------------------
+speech_status  speakers  mean_speaker_corpus_wer  std_speaker_corpus_wer  mean_speaker_corpus_cer  std_speaker_corpus_cer
+   dysarthria         8                    2.766                   5.853                    4.111                   6.922
+      healthy         7                    0.184                   0.156                    0.070                   0.072
+
+PERFECT TRANSCRIPTIONS
+--------------------------------------------------------------------------------
+speech_status  recordings  perfect_recordings  perfect_rate
+   dysarthria          50                  13         0.260
+      healthy          50                  39         0.780
+
+WORST CASES
+--------------------------------------------------------------------------------
+
+#1
+Speaker: F01
+Status: dysarthria
+Reference: A long flowing beard clings to his chin
+Whisper:  along for me a queen's king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king king
+WER: 55.250
+CER: 56.179
+
+#2
+Speaker: M01
+Status: dysarthria
+Reference: witty
+Whisper:  What will it be?
+WER: 4.000
+CER: 2.400
+
+#3
+Speaker: M02
+Status: dysarthria
+Reference: yes
+Whisper:  Yeah, that's true.
+WER: 3.000
+CER: 4.000
+
+#4
+Speaker: MC03
+Status: healthy
+Reference: gas
+Whisper:  You got it.
+WER: 3.000
+CER: 3.000
+
+#5
+Speaker: M02
+Status: dysarthria
+Reference: pitting
+Whisper:  There you go.
+WER: 3.000
+CER: 1.571
+
+#6
+Speaker: M05
+Status: dysarthria
+Reference: left
+Whisper:  It's the left.
+WER: 2.000
+CER: 2.000
+
+#7
+Speaker: F01
+Status: dysarthria
+Reference: torn
+Whisper:  Come on.
+WER: 2.000
+CER: 1.250
+
+#8
+Speaker: M02
+Status: dysarthria
+Reference: double
+Whisper:  Don't bow.
+WER: 2.000
+CER: 0.833
+
+#9
+Speaker: F01
+Status: dysarthria
+Reference: Usually minus several buttons
+Whisper:  I'm going to buy you several buttons.
+WER: 1.250
+CER: 0.586
+
+#10
+Speaker: M04
+Status: dysarthria
+Reference: Will Robin wear a yellow lily
+Whisper:  Wa Allah bani wa l-hayyi Ya Rabbi.
+WER: 1.167
+CER: 0.793
