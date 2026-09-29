@@ -1,0 +1,34 @@
+ACOUSTIC BASELINE
+5-Fold Speaker-Independent Cross-Validation
+======================================================================
+
+FEATURES
+----------------------------------------------------------------------
+audio_duration
+voiced_duration
+speech_ratio
+pause_ratio
+number_of_pauses
+mean_pause_duration
+f0_mean
+f0_std
+rms_mean
+rms_std
+
+PER-FOLD RESULTS
+----------------------------------------------------------------------
+ fold  accuracy  balanced_accuracy  macro_f1  roc_auc  sensitivity  specificity
+    1     0.904              0.886     0.889    0.967        0.837        0.935
+    2     0.642              0.642     0.607    0.701        0.343        0.941
+    3     0.635              0.656     0.635    0.741        0.791        0.521
+    4     0.628              0.579     0.561    0.684        0.483        0.675
+    5     0.594              0.701     0.567    0.765        0.877        0.525
+
+MEAN ± STANDARD DEVIATION
+----------------------------------------------------------------------
+accuracy            : 0.681 ± 0.126
+balanced_accuracy   : 0.693 ± 0.117
+macro_f1            : 0.652 ± 0.136
+roc_auc             : 0.771 ± 0.114
+sensitivity         : 0.666 ± 0.238
+specificity         : 0.719 ± 0.209

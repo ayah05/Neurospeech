@@ -25,3 +25,7 @@ matplotlib
 
 # Utilities
 tqdm
+
+accelerate
+jiwer
+modal
