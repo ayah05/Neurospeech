@@ -40,13 +40,13 @@ Repeated transcription samples: 15592
 SELECTED AUDIO SAMPLES
 --------------------------------------------------------------------------------
  Dataset Index                                              Transcription Speech Status Gender  Duration                                                                     Audio
-             0                                                      alpha       healthy female     3.300 <datasets.features._torchcodec.AudioDecoder object at 0x00000272662215E0>
-             1                                                        the       healthy female     3.450 <datasets.features._torchcodec.AudioDecoder object at 0x000002725A2D0EC0>
-             2 Except in the winter when the ooze or snow or ice prevents       healthy female     7.200 <datasets.features._torchcodec.AudioDecoder object at 0x000002725A2D1370>
-             3                                                       raid       healthy female     3.600 <datasets.features._torchcodec.AudioDecoder object at 0x000002725A2D1490>
-             4                                                      read        healthy female     3.450 <datasets.features._torchcodec.AudioDecoder object at 0x0000027266B74BF0>
-         10978                 Day after day some new episode is reported    dysarthria   male    13.655 <datasets.features._torchcodec.AudioDecoder object at 0x0000027266B74B30>
-         10979                       Beg that guard for one gallon of gas    dysarthria   male     9.635 <datasets.features._torchcodec.AudioDecoder object at 0x0000027266B74D70>
-         10980                                                        him    dysarthria   male     3.595 <datasets.features._torchcodec.AudioDecoder object at 0x0000027266B74E90>
-         10981                                                     select    dysarthria   male     3.540 <datasets.features._torchcodec.AudioDecoder object at 0x0000027266B74E30>
-         10982                           Although always alone we survive    dysarthria   male     7.990 <datasets.features._torchcodec.AudioDecoder object at 0x0000027266B75040>
+             0                                                      alpha       healthy female     3.300 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BE427A0F0>
+             1                                                        the       healthy female     3.450 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BF45E5F70>
+             2 Except in the winter when the ooze or snow or ice prevents       healthy female     7.200 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BE7D82540>
+             3                                                       raid       healthy female     3.600 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BE7D82570>
+             4                                                      read        healthy female     3.450 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BE7D82720>
+         10978                 Day after day some new episode is reported    dysarthria   male    13.655 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BF4599820>
+         10979                       Beg that guard for one gallon of gas    dysarthria   male     9.635 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BF45998B0>
+         10980                                                        him    dysarthria   male     3.595 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BF46256A0>
+         10981                                                     select    dysarthria   male     3.540 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BF46257C0>
+         10982                           Although always alone we survive    dysarthria   male     7.990 <datasets.features._torchcodec.AudioDecoder object at 0x0000020BF4625BE0>

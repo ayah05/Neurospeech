@@ -392,6 +392,43 @@ def main():
     print(f"\nAudit report saved to:")
     print(report_path)
 
+    # ---------------------------------------------------------
+    # SPEAKER-ID / FILE PATH INVESTIGATION
+    # ---------------------------------------------------------
+
+    print_section("AUDIO FILE PATH INVESTIGATION")
+
+    # Create a metadata-only view.
+    # This does NOT modify the normal `train` dataset.
+    train_metadata = train.cast_column(
+        "audio",
+        Audio(decode=False)
+    )
+
+    indices_to_check = [
+        healthy_samples[0][0],
+        dysarthria_samples[0][0]
+    ]
+
+    for index in indices_to_check:
+
+        sample = train_metadata[index]
+        audio_metadata = sample["audio"]
+
+        print(f"\nSample {index}")
+        print(f"  Status:        {sample['speech_status']}")
+        print(f"  Gender:        {sample['gender']}")
+        print(f"  Transcription: {sample['transcription']}")
+
+        # IMPORTANT:
+        # Do not print audio_metadata itself because it may contain
+        # the entire WAV file as bytes.
+
+        if isinstance(audio_metadata, dict):
+            print(f"  Audio path:    {audio_metadata.get('path')}")
+            print(f"  Metadata keys: {list(audio_metadata.keys())}")
+        else:
+            print(f"  Metadata type: {type(audio_metadata)}")
 
     print_section("AUDIT COMPLETE")
 

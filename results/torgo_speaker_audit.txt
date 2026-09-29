@@ -1,0 +1,29 @@
+TORGO SPEAKER AUDIT
+======================================================================
+
+speaker_id speech_status gender  recordings  total_duration_minutes  mean_duration_seconds
+       F01    dysarthria female         236                    9.56                   2.43
+       F03    dysarthria female        1087                   49.76                   2.75
+       F04    dysarthria female         673                   36.70                   3.27
+      FC01       healthy female         302                   18.05                   3.59
+      FC02       healthy female        2187                  103.70                   2.84
+      FC03       healthy female        1922                   83.35                   2.60
+       M01    dysarthria   male         743                   48.93                   3.95
+       M02    dysarthria   male         772                   47.28                   3.67
+       M03    dysarthria   male         810                   42.41                   3.14
+       M04    dysarthria   male         666                   47.88                   4.31
+       M05    dysarthria   male         587                   45.10                   4.61
+      MC01       healthy   male        2155                  108.54                   3.02
+      MC02       healthy   male        1123                   66.25                   3.54
+      MC03       healthy   male        1669                   58.94                   2.12
+      MC04       healthy   male        1620                   54.20                   2.01
+
+Total unique speakers: 15
+
+Speakers by speech status:
+dysarthria: 8
+healthy: 7
+
+Speakers by gender:
+female: 6
+male: 9

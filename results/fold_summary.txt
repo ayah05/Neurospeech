@@ -1,0 +1,30 @@
+TORGO 5-FOLD SPEAKER-INDEPENDENT SPLIT
+==========================================================================================
+
+FOLD SUMMARY
+------------------------------------------------------------------------------------------
+ fold  speakers  healthy  dysarthria  female  male  recordings  duration_hours
+    1         3        1           2       1     2        3163            2.76
+    2         3        1           2       1     2        3343            2.56
+    3         3        1           2       1     2        3331            3.00
+    4         3        2           1       2     1        3299            2.74
+    5         3        2           1       1     2        3416            2.62
+
+SPEAKER ASSIGNMENTS
+------------------------------------------------------------------------------------------
+speaker_id speech_status gender  fold
+       F01    dysarthria female     1
+       M02    dysarthria   male     1
+      MC01       healthy   male     1
+       F03    dysarthria female     2
+       M05    dysarthria   male     2
+      MC03       healthy   male     2
+       M01    dysarthria   male     3
+       M04    dysarthria   male     3
+      FC03       healthy female     3
+       M03    dysarthria   male     4
+      FC01       healthy female     4
+      FC02       healthy female     4
+       F04    dysarthria female     5
+      MC02       healthy   male     5
+      MC04       healthy   male     5
