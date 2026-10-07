@@ -1,0 +1,15 @@
+HuBERT Linear Probe - Full TORGO
+============================================================
+Samples: 16552
+Embedding dimension: 768
+Speakers: 15
+Representation: facebook/hubert-base-ls960
+Classifier: balanced logistic regression
+Evaluation: 5-fold speaker-independent CV
+
+accuracy: 0.736 ± 0.129
+balanced_accuracy: 0.723 ± 0.136
+macro_f1: 0.694 ± 0.149
+auroc: 0.836 ± 0.165
+sensitivity: 0.693 ± 0.267
+specificity: 0.752 ± 0.248

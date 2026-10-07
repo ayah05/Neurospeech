@@ -1,0 +1,23 @@
+HuBERT Control Experiments
+======================================================================
+Representation: facebook/hubert-base-ls960
+Classifier: balanced logistic regression
+Evaluation: 5-fold speaker-independent CV
+
+Perfect ASR
+--------------------------------------------------
+Samples: 10121
+Balanced accuracy: 0.723 ± 0.131
+Macro F1: 0.656 ± 0.157
+AUROC: 0.828 ± 0.161
+Sensitivity: 0.673 ± 0.257
+Specificity: 0.774 ± 0.224
+
+Strict Shared-Prompt Perfect ASR
+--------------------------------------------------
+Samples: 4962
+Balanced accuracy: 0.709 ± 0.148
+Macro F1: 0.668 ± 0.164
+AUROC: 0.814 ± 0.179
+Sensitivity: 0.674 ± 0.257
+Specificity: 0.744 ± 0.249
