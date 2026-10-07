@@ -1,247 +1,176 @@
 # NeuroSpeech: Dysarthric Speech Analysis Beyond Transcription
 
-## Projektübersicht
+## Project Overview
 
-NeuroSpeech ist ein Forschungsprojekt, das sich mit der Analyse dysarthrnischer Sprache (Dysarthrie) befasst. Das Projekt untersucht, welche klinisch relevanten Informationen verloren gehen, wenn Sprache nur auf Text reduziert wird. Durch die Verwendung moderner Machine-Learning-Techniken werden akustische Merkmale und selbstüberwachte Sprachrepräsentationen analysiert, um ein tieferes Verständnis dieser Sprachstörung zu erreichen.
+NeuroSpeech is a research project focused on analyzing dysarthric speech with a central question: what clinically meaningful information is lost when speech is reduced to text alone? The project explores acoustic patterns, prosodic cues, and self-supervised speech representations to better understand dysarthria beyond standard automatic speech recognition (ASR) outputs.
 
-### Forschungsfrage
+## Research Question
 
-**Welche klinisch relevanten Informationen über dysarthrnische Sprache gehen verloren, wenn Sprache nur auf Text reduziert wird?**
+What clinically relevant information about dysarthric speech is lost when speech is reduced to text?
 
-Dieses Projekt adressiert eine kritische Lücke in der Spracherkennungsforschung: Automatische Spracherkennungssysteme (ASR) konzentrieren sich ausschließlich auf Transkriptionen, ignorieren aber wichtige akustische und prosodische Merkmale, die gerade bei pathologischen Sprachen entscheidend sind.
-
----
-
-## Dysarthrie: Die untersuchte Krankheit
-
-### Was ist Dysarthrie?
-
-**Dysarthrie** ist eine neurologische Sprachstörung, die durch eine Schwäche oder fehlende Kontrolle der Sprechmuskeln gekennzeichnet ist. Sie resultiert aus neurologischen Schädigungen und beeinträchtigt die Fähigkeit, Sprache zu produzieren.
-
-### Hauptmerkmale von Dysarthrie
-
-- **Articulation (Aussprache)**: Undeutliche oder verwischte Konsonanten und Vokale
-- **Prosodie**: Abnormale Tonhöhe, Lautstärke und Sprechgeschwindigkeit
-- **Stimme**: Heiserkeit, Rauheit oder nasale Qualität
-- **Rhythmus**: Unregelmäßige Sprechgeschwindigkeit oder Pausen
-- **Verständlichkeit**: Reduzierte oder eingeschränkte Verständlichkeit für Hörer
-
-### Ursachen
-
-Dysarthrie kann durch verschiedene neurologische Erkrankungen verursacht werden:
-- **Zerebralparese** (Cerebral Palsy)
-- **Parkinson-Krankheit**
-- **Multiple Sklerose**
-- **Schlaganfälle**
-- **Hirn- oder Rückenmarksverletzungen**
-- **Amyotrophe Lateralsklerose (ALS)**
-
-### Klinische Bedeutung
-
-Die traditionelle Spracherkennung konzentriert sich ausschließlich auf die Transkription, d.h. auf das *Was wird gesagt*, nicht auf das *Wie wird es gesagt*. Bei Dysarthrie sind jedoch die akustischen Eigenschaften (Prosodie, Articulation, Stimmqualität) oft informativer als die reinen Wörter. Diese Informationen sind unverzichtbar für:
-
-- **Klinische Diagnostik**: Früherkennung und Verlaufskontrolle
-- **Therapieplanung**: Maßgeschneiderte Interventionen
-- **Prognose**: Vorhersage des Krankheitsverlaufs
+This project addresses a key limitation of conventional ASR systems: they focus on the transcription of spoken content, but dysarthria often affects how speech is produced, not just what is said. Acoustic quality, articulation, rhythm, and vocal characteristics can carry important clinical information.
 
 ---
 
-## Modelle und Technologien
+## Disease Under Investigation: Dysarthria
 
-Das Projekt nutzt mehrere state-of-the-art Modelle für die Sprachanalyse:
+Dysarthria is a motor speech disorder caused by neurological impairment affecting the muscles involved in speech production. It is often associated with conditions such as cerebral palsy, Parkinson's disease, stroke, ALS, multiple sclerosis, and other neurological disorders.
 
-### 1. **Whisper (OpenAI)**
+### Key Characteristics
 
-**Rolle**: Automatische Spracherkennung (ASR) Baseline
+- Reduced speech clarity and articulation
+- Slower or irregular speech rate
+- Abnormal prosody, pitch, or loudness
+- Breathy, harsh, or strained voice quality
+- Nasalization or breathy resonance changes
+- Reduced intelligibility for listeners
 
-Whisper ist ein großes Spracherkennungsmodell von OpenAI, trainiert auf 680.000 Stunden mehrsprachiger und mehrsprachiger Audio-Daten aus dem Internet.
+### Why It Matters
 
-- **Modell**: `openai/whisper-small`
-- **Funktion**: Konvertiert Sprache in Text
-- **Zweck**: Ermittelt die Baseline-Transkriptionsgenauigkeit für dysarthrnische Sprache
-- **Metriken**:
-  - **WER** (Word Error Rate): Prozentsatz der falsch erkannten Wörter
-  - **CER** (Character Error Rate): Prozentsatz der falsch erkannten Zeichen
+For dysarthric speech, the acoustic signal often contains crucial information that is not captured by a raw text transcript. Important clinical signals may lie in:
 
-### 2. **HuBERT (Self-Supervised Learning)**
+- prosody and rhythm
+- articulation precision
+- vocal quality
+- speech timing and variation
 
-**Rolle**: Selbstüberwachte Sprachrepräsentation
-
-HuBERT (Hidden-Unit BERT) ist ein selbstüberwachtes Lernmodell, das ohne manuell annotierte Daten hochdimensionale Sprachrepräsentationen lernt.
-
-- **Architektur**: Transformer-basierte Embeddings
-- **Trainingsdaten**: Nicht-gekennzeichnete Audiodaten
-- **Funktion**: Extrahiert tiefe akustische Merkmale aus Rohaudio
-- **Vorteil**: Erfasst prosodische und akustische Charakteristiken, die über Text-Transkriptionen hinausgehen
-- **Output**: Dense Vektoren (Hidden-Unit-Embeddings), die semantische und akustische Informationen kodieren
-
-### 3. **Acoustic Features (Klassische Merkmale)**
-
-**Rolle**: Interpretierbare akustische Analysen
-
-- **Merkmale**: Spektrale Eigenschaften (MFCC, Mel-Frequenz-Spektrogram), Prosodische Merkmale
-- **Funktion**: Liefert traditionelle sprachverarbeitungsbasierte Features
-- **Vorteil**: Direkt interpretierbar für klinische Anwendungen
+This is why the project investigates speech representations beyond transcription and evaluates whether non-textual cues improve understanding and downstream analysis of dysarthric speech.
 
 ---
 
-## Projektstruktur
+## Models Used
 
-```
+### 1. Whisper
+
+Whisper is an ASR model developed by OpenAI and used as the transcription baseline in this project.
+
+- Model: `openai/whisper-small`
+- Purpose: generate text transcriptions from dysarthric audio
+- Evaluation metrics:
+  - WER (Word Error Rate)
+  - CER (Character Error Rate)
+
+Whisper is used to study how well standard ASR performs on dysarthric speech and where it fails.
+
+### 2. HuBERT
+
+HuBERT is a self-supervised speech representation model that learns meaningful speech features without relying on human-labeled transcripts for the representation task.
+
+- Purpose: extract rich speech embeddings from raw audio
+- Benefits: captures acoustic and prosodic information beyond text
+- Use in this project: compare speech representations with transcription-based baselines and study what information remains useful for dysarthric speech analysis
+
+### 3. Acoustic Feature Extraction
+
+Classical signal-processing features are also used to characterize speech patterns such as:
+
+- spectral structure
+- MFCC-like features
+- temporal dynamics
+- prosodic descriptors
+
+These features are useful for interpretability and can help isolate which speech attributes are most relevant for dysarthria-related analysis.
+
+---
+
+## Repository Structure
+
+```text
 Neurospeech/
-├── scripts/                              # Hauptverarbeitungsskripte
-│   ├── download_torgo.py                # TORGO-Datensatz herunterladen
-│   ├── inspect_torgo.py                 # Datensatz inspizieren
-│   ├── audit_torgo.py                   # Datensatzaudit und Analyse
-│   ├── build_metadata.py                # Metadaten erstellen
-│   ├── create_folds.py                  # Train/Val/Test-Split
-│   ├── extract_acoustic_features.py     # Akustische Merkmale extrahieren
-│   ├── test_whisper.py                  # Whisper-Basis-Tests
-│   ├── test_hubert.py                   # HuBERT-Basis-Tests
-│   ├── train_acoustic_baseline.py       # Akustisches Baseline-Modell trainieren
-│   ├── train_hubert_baseline.py         # HuBERT-Baseline trainieren
-│   ├── evaluate_whisper_subset.py       # Whisper-Evaluierung
-│   ├── analyze_whisper_full.py          # Umfassende Whisper-Analyse
-│   ├── analyze_hubert_acoustic_relationship.py  # Beziehung HuBERT-Akustik
-│   ├── analyze_prediction_errors.py     # Fehleranalyse
-│   ├── analyze_microphone_stratified_performance.py  # Mikrofon-abhängige Performance
-│   └── ...                              # Weitere Analyse- und Ablations-Skripte
-├── src/neurospeech/                     # Kernmodule
-│   ├── features/                        # Merkmal-Extraction
-│   │   └── ssl.py                       # Self-Supervised Learning (HuBERT)
-│   └── evaluation/                      # Evaluierungs-Tools
-│       └── asr.py                       # ASR-Metriken (WER, CER)
-├── data/                                # Datensätze und Metadaten
-├── results/                             # Ergebnisse und Visualisierungen
-├── report/                              # Technische Berichte
-├── modal/                               # Cloud-Computing-Konfiguration
-└── requirements.txt                     # Python-Abhängigkeiten
+├── scripts/
+│   ├── audit_torgo.py
+│   ├── build_metadata.py
+│   ├── create_folds.py
+│   ├── extract_acoustic_features.py
+│   ├── inspect_torgo.py
+│   ├── test_whisper.py
+│   ├── test_hubert.py
+│   ├── train_acoustic_baseline.py
+│   ├── train_hubert_baseline.py
+│   ├── evaluate_whisper_subset.py
+│   ├── analyze_whisper_full.py
+│   ├── analyze_hubert_acoustic_relationship.py
+│   ├── analyze_prediction_errors.py
+│   ├── analyze_microphone_stratified_performance.py
+│   └── ...
+├── src/
+│   └── neurospeech/
+│       ├── evaluation/
+│       └── features/
+├── data/
+├── results/
+├── report/
+├── modal/
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
 
-## Workflow und Fortschritt
+## Dataset
 
-Das Projekt folgt einem strukturierten Workflow:
+The project uses the TORGO database, a widely used dataset for dysarthric speech research.
 
-### ✅ Abgeschlossene Phasen
+### TORGO Characteristics
 
-- [x] **TORGO-Datensatz Integration**: Laden und Konfiguration des Dysarthrie-Datensatzes
-- [x] **Dataset-Inspektion**: Grundlegende Analyse der Datenstruktur und Qualität
-- [x] **Dataset-Audit**: Umfassende Validierung (Sprecher, Geschlecht, Dauer, Transkriptionen)
+- healthy and dysarthric speakers
+- both male and female speakers
+- audio recordings with associated transcriptions
+- metadata for speech condition and demographics
 
-### 🔄 Laufende / Bevorstehende Phasen
-
-- [ ] **Speaker-unabhängiger Train/Val/Test-Split**: Stratifizierte Aufteilung nach Sprechern
-- [ ] **Akustische Merkmal-Extraction**: Berechnung von MFCC, Mel-Spektrogrammen, etc.
-- [ ] **ASR Baseline**: Evaluierung von Whisper auf dysarthrnischen Daten
-- [ ] **Self-Supervised Speech Representations**: Anwendung von HuBERT
-- [ ] **Ablations-Experimente**: Systematische Analyse der Beiträge verschiedener Merkmale
-- [ ] **Evaluierung & Interpretation**: Finale Ergebnisse und klinische Implikationen
+The dataset is used for exploratory analysis, auditing, feature extraction, model evaluation, and ablation studies.
 
 ---
 
-## Datensatz: TORGO
+## Current Progress
 
-Das Projekt verwendet den **TORGO-Datensatz** (Toronto Dysarthria Database), einen Standard-Benchmark für Dysarthrie-Forschung.
+- [x] TORGO dataset integration
+- [x] Dataset inspection
+- [x] Dataset audit
+- [ ] Speaker-independent train/validation/test split
+- [ ] Acoustic feature extraction
+- [ ] ASR baseline
+- [ ] Self-supervised speech representations
+- [ ] Ablation experiments
+- [ ] Final evaluation
 
-### TORGO-Eigenschaften
+---
 
-- **Sprecher**: Personen mit und ohne Dysarthrie
-- **Geschlecht**: Männlich und weiblich
-- **Transkriptionen**: Standardisierte Sätze und Wörter
-- **Audiosignale**: Hochwertige Sprachaufnahmen
-- **Metadaten**: Sprecherdemografien, Sprachstatus (gesund vs. Dysarthrie)
+## Project Goals
 
-### Datensatz-Zugriff
+This project aims to:
 
-```python
-from datasets import load_dataset
-dataset = load_dataset("abnerh/TORGO-database")
-```
+1. evaluate how well standard ASR models perform on dysarthric speech
+2. determine which clinically relevant speech cues are lost in text-only representations
+3. compare transcription-based methods with acoustic and self-supervised speech features
+4. build a foundation for more clinically meaningful speech analysis tools
 
 ---
 
 ## Dependencies
 
-Das Projekt nutzt moderne Python-Bibliotheken:
+The repository uses Python libraries for ML, audio processing, and evaluation, including:
 
-- **Machine Learning**: `torch`, `transformers`, `torchaudio`
-- **Hugging Face Ecosystem**: `datasets`, `huggingface-hub`
-- **Audio Processing**: `librosa`, `soundfile`
-- **Data Analysis**: `pandas`, `numpy`, `scikit-learn`
-- **Evaluation**: `jiwer` (Word Error Rate)
-- **Visualization**: `matplotlib`
+- PyTorch
+- torchaudio
+- Transformers
+- Datasets
+- librosa
+- soundfile
+- NumPy
+- pandas
+- scikit-learn
+- jiwer
+- matplotlib
+- tqdm
 
-Siehe `requirements.txt` für die vollständige Liste.
-
----
-
-## Forschungsbeiträge
-
-Dieses Projekt trägt zu mehreren wichtigen Fragen bei:
-
-1. **Grenzen der textbasierten ASR**: Zeigt, dass Transkriptionen allein für dysarthrnische Sprache unzureichend sind
-2. **Akustische Marker**: Identifiziert aussagekräftige akustische Merkmale, die klinisch relevantem
-3. **Model-Vergleiche**: Evaluiert verschiedene Ansätze (klassische Features vs. self-supervised Learning)
-4. **Klinische Anwendbarkeit**: Bereitet den Weg für bessere diagnostische Tools
+See `requirements.txt` for the full dependency list.
 
 ---
 
-## Verwendung
+## Why This Project Matters
 
-### Voraussetzungen
+Dysarthria is not just a transcription problem. It is a speech production disorder with distinctive acoustic patterns. By moving beyond text-only analysis, this project explores whether machine learning systems can capture clinically meaningful differences that are otherwise hidden in ordinary ASR pipelines.
 
-```bash
-pip install -r requirements.txt
-```
-
-### Grundlegende Schritte
-
-1. **Datensatz inspizieren**:
-   ```bash
-   python scripts/inspect_torgo.py
-   ```
-
-2. **Datensatz auditieren**:
-   ```bash
-   python scripts/audit_torgo.py
-   ```
-
-3. **Akustische Merkmale extrahieren**:
-   ```bash
-   python scripts/extract_acoustic_features.py
-   ```
-
-4. **Whisper testen**:
-   ```bash
-   python scripts/test_whisper.py
-   ```
-
-5. **HuBERT testen**:
-   ```bash
-   python scripts/test_hubert.py
-   ```
-
----
-
-## Zitate und Referenzen
-
-- **TORGO Dataset**: Rudzicz et al. (2012) - Toronto Dysarthria Database
-- **Whisper**: Radford et al. (2022) - "Robust Speech Recognition via Large-Scale Weak Supervision"
-- **HuBERT**: Hsu et al. (2021) - "HuBERT: Self-supervised Speech Representation Learning by Masked Prediction of Hidden Units"
-
----
-
-## Lizenz
-
-Dieses Projekt ist zur Forschung verfügbar. Bitte beachten Sie die Lizenzbedingungen des TORGO-Datensatzes.
-
----
-
-## Kontakt & Beiträge
-
-Für Fragen, Bug-Reports oder Beiträge: Öffnen Sie ein GitHub Issue oder erstellen Sie einen Pull Request.
-
-**Autor**: ayah05
-**Repository**: https://github.com/ayah05/Neurospeech
+This work is intended as a step toward better understanding, diagnosis, and analysis of dysarthric speech in research and clinical settings.
