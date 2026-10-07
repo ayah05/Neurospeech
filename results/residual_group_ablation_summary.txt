@@ -1,0 +1,44 @@
+Residual Group Ablation
+======================================================================
+
+hubert_original
+  Balanced accuracy: 0.723 ± 0.136
+  Macro F1: 0.694 ± 0.149
+  AUROC: 0.836 ± 0.165
+  Δ BA vs HuBERT: +0.000
+  Δ AUROC vs HuBERT: +0.000
+
+residual_duration_only
+  Balanced accuracy: 0.716 ± 0.144
+  Macro F1: 0.689 ± 0.151
+  AUROC: 0.811 ± 0.179
+  Δ BA vs HuBERT: -0.007
+  Δ AUROC vs HuBERT: -0.024
+
+residual_timing
+  Balanced accuracy: 0.665 ± 0.182
+  Macro F1: 0.647 ± 0.174
+  AUROC: 0.737 ± 0.255
+  Δ BA vs HuBERT: -0.058
+  Δ AUROC vs HuBERT: -0.099
+
+residual_prosody
+  Balanced accuracy: 0.719 ± 0.130
+  Macro F1: 0.696 ± 0.138
+  AUROC: 0.809 ± 0.163
+  Δ BA vs HuBERT: -0.004
+  Δ AUROC vs HuBERT: -0.027
+
+residual_energy
+  Balanced accuracy: 0.658 ± 0.172
+  Macro F1: 0.641 ± 0.166
+  AUROC: 0.740 ± 0.252
+  Δ BA vs HuBERT: -0.064
+  Δ AUROC vs HuBERT: -0.096
+
+residual_all_acoustic
+  Balanced accuracy: 0.632 ± 0.172
+  Macro F1: 0.623 ± 0.159
+  AUROC: 0.674 ± 0.261
+  Δ BA vs HuBERT: -0.091
+  Δ AUROC vs HuBERT: -0.162

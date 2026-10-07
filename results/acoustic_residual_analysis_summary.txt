@@ -1,0 +1,48 @@
+Acoustic-Explainable Component Analysis
+======================================================================
+Dataset: Full TORGO
+Evaluation: fixed 5-fold speaker-independent CV
+Classifier: StandardScaler + balanced Logistic Regression
+Residualization: Acoustic -> HuBERT Ridge (alpha=1.0)
+
+Selected acoustic features:
+  - audio_duration
+  - voiced_duration
+  - pause_ratio
+  - number_of_pauses
+  - mean_pause_duration
+  - f0_mean
+  - f0_std
+  - rms_mean
+  - rms_std
+
+Acoustic
+  Balanced Accuracy: 0.693 ± 0.117
+  Macro F1: 0.652 ± 0.136
+  AUROC: 0.771 ± 0.114
+  Sensitivity: 0.666 ± 0.238
+  Specificity: 0.719 ± 0.209
+
+HuBERT
+  Balanced Accuracy: 0.723 ± 0.136
+  Macro F1: 0.694 ± 0.149
+  AUROC: 0.836 ± 0.165
+  Sensitivity: 0.693 ± 0.267
+  Specificity: 0.752 ± 0.248
+
+HuBERT + Acoustic
+  Balanced Accuracy: 0.718 ± 0.131
+  Macro F1: 0.691 ± 0.143
+  AUROC: 0.834 ± 0.159
+  Sensitivity: 0.680 ± 0.274
+  Specificity: 0.757 ± 0.249
+
+Residual HuBERT
+  Balanced Accuracy: 0.632 ± 0.172
+  Macro F1: 0.623 ± 0.159
+  AUROC: 0.674 ± 0.261
+  Sensitivity: 0.569 ± 0.312
+  Specificity: 0.694 ± 0.121
+
+Interpretation note:
+Residual HuBERT removes only the representation component linearly predictable from the selected acoustic measurements. It does not guarantee removal of all acoustic information.

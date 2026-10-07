@@ -28,3 +28,10 @@ data/strict_shared_prompt_subset.csv
 
 # Generated HuBERT embeddings
 data/hubert_embeddings.npz
+
+# Large / intermediate analysis artifacts
+results/audio_error_cases/
+results/acoustic_residual_oof_predictions.csv
+results/prediction_error_recordings.csv
+results/prediction_error_top_confident.csv
+results/prediction_flips_hubert_residual.csv

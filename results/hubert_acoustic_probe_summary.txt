@@ -1,0 +1,56 @@
+HuBERT -> Acoustic Feature Linear Probing
+======================================================================
+Representation: facebook/hubert-base-ls960
+Input: 768-D mean-pooled HuBERT embeddings
+Probe: StandardScaler + Ridge(alpha=1.0)
+Evaluation: 5-fold speaker-independent CV
+
+voiced_duration
+  R²: 0.578 ± 0.160
+  Pearson r: 0.781 ± 0.095
+  MAE: 0.6190 ± 0.0343
+
+f0_mean
+  R²: 0.515 ± 0.097
+  Pearson r: 0.743 ± 0.084
+  MAE: 18.3011 ± 4.7300
+
+speech_ratio
+  R²: 0.484 ± 0.076
+  Pearson r: 0.743 ± 0.025
+  MAE: 0.1643 ± 0.0102
+
+pause_ratio
+  R²: 0.483 ± 0.076
+  Pearson r: 0.743 ± 0.025
+  MAE: 0.1645 ± 0.0100
+
+audio_duration
+  R²: 0.474 ± 0.160
+  Pearson r: 0.776 ± 0.095
+  MAE: 0.6996 ± 0.0954
+
+rms_mean
+  R²: 0.367 ± 0.191
+  Pearson r: 0.660 ± 0.157
+  MAE: 0.0256 ± 0.0091
+
+f0_std
+  R²: 0.301 ± 0.169
+  Pearson r: 0.615 ± 0.105
+  MAE: 20.2340 ± 4.1241
+
+rms_std
+  R²: 0.281 ± 0.269
+  Pearson r: 0.643 ± 0.160
+  MAE: 0.0306 ± 0.0084
+
+mean_pause_duration
+  R²: 0.112 ± 0.135
+  Pearson r: 0.402 ± 0.129
+  MAE: 0.0845 ± 0.0091
+
+number_of_pauses
+  R²: -0.305 ± 0.642
+  Pearson r: 0.379 ± 0.206
+  MAE: 1.0721 ± 0.0953
