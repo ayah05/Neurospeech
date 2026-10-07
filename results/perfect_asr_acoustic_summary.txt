@@ -1,0 +1,24 @@
+Perfect-ASR Acoustic Analysis
+========================================
+
+Perfect-ASR recordings: 10121
+
+Class distribution:
+  healthy: 8104
+  dysarthria: 2017
+
+Fold results:
+ fold  train_recordings  test_recordings  train_speakers  test_speakers  accuracy  balanced_accuracy  macro_f1    auroc  sensitivity  specificity
+    1              8325             1796              12              3  0.878619           0.832033  0.743294 0.946057     0.774011     0.890056
+    2              8297             1824              12              3  0.741228           0.606312  0.611505 0.644231     0.276438     0.936187
+    3              8576             1545              12              3  0.642718           0.677228  0.538940 0.771656     0.722222     0.632234
+    4              7542             2579              12              3  0.630865           0.642605  0.598809 0.703423     0.667162     0.618048
+    5              7744             2377              12              3  0.547749           0.678515  0.526283 0.740169     0.888393     0.468637
+
+Mean ± standard deviation:
+accuracy: 0.688 ± 0.127
+balanced_accuracy: 0.687 ± 0.086
+macro_f1: 0.604 ± 0.086
+auroc: 0.761 ± 0.114
+sensitivity: 0.666 ± 0.232
+specificity: 0.709 ± 0.198

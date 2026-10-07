@@ -1,0 +1,74 @@
+Strict Shared-Prompt Perfect-ASR Dataset
+=============================================
+
+Minimum speakers per group: 3
+Eligible prompts: 213
+Total recordings: 4962
+
+Class distribution:
+  healthy: 3402
+  dysarthria: 1560
+
+Total speakers retained: 15
+Healthy speakers retained: 7
+Dysarthria speakers retained: 8
+
+Recordings per speaker:
+speaker_id speech_status  fold  recordings
+       F01    dysarthria     1          25
+       F03    dysarthria     2         291
+       F04    dysarthria     5         341
+      FC01       healthy     4         188
+      FC02       healthy     4         478
+      FC03       healthy     3         568
+       M01    dysarthria     3          97
+       M02    dysarthria     1         131
+       M03    dysarthria     4         477
+       M04    dysarthria     3          75
+       M05    dysarthria     2         123
+      MC01       healthy     1         585
+      MC02       healthy     5         394
+      MC03       healthy     2         592
+      MC04       healthy     5         597
+
+Fold distribution:
+speech_status  dysarthria  healthy
+fold                              
+1                     156      585
+2                     414      592
+3                     172      568
+4                     477      666
+5                     341      991
+
+Top strict prompts:
+reference_normalized  total_recordings  healthy_recordings  dysarthria_recordings  healthy_speakers  dysarthria_speakers  total_speakers
+                  no                98                  57                     41                 7                    8              15
+                 yes                95                  60                     35                 7                    8              15
+                 one                49                  33                     16                 7                    8              15
+                  go                28                  13                     15                 7                    8              15
+                  up                41                  25                     16                 7                    7              14
+                rock                49                  33                     16                 7                    6              13
+                 bad                41                  25                     16                 6                    7              13
+               right                39                  24                     15                 7                    6              13
+                down                35                  23                     12                 7                    6              13
+                here                23                  11                     12                 6                    7              13
+                play                21                  11                     10                 7                    6              13
+                beat                54                  44                     10                 7                    5              12
+                 pat                49                  40                      9                 7                    5              12
+                feet                48                  37                     11                 6                    6              12
+                feed                45                  36                      9                 7                    5              12
+                read                45                  37                      8                 7                    5              12
+                meat                43                  31                     12                 7                    5              12
+                left                39                  30                      9                 7                    5              12
+                dark                37                  22                     15                 7                    5              12
+                park                37                  25                     12                 7                    5              12
+                 bit                34                  22                     12                 7                    5              12
+                menu                29                  19                     10                 6                    6              12
+               swarm                29                  18                     11                 7                    5              12
+                corn                28                  20                      8                 7                    5              12
+                 tip                25                  18                      7                 7                    5              12
+               snoop                21                  11                     10                 6                    6              12
+               range                20                  12                      8                 7                    5              12
+             trouble                20                  12                      8                 7                    5              12
+              urgent                20                  12                      8                 7                    5              12
+                weed                20                  13                      7                 7                    5              12

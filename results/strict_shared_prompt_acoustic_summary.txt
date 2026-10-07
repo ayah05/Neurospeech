@@ -1,0 +1,28 @@
+Strict Shared-Prompt Acoustic Analysis
+=============================================
+
+Recordings: 4962
+Prompts: 213
+Speakers: 15
+
+Experimental constraints:
+  WER = 0 for every recording
+  >= 3 healthy speakers per prompt
+  >= 3 dysarthria speakers per prompt
+  speaker-independent fixed folds
+
+Fold results:
+ fold  train_recordings  test_recordings  train_speakers  test_speakers  accuracy  balanced_accuracy  macro_f1    auroc  sensitivity  specificity
+    1              4221              741              12              3  0.859649           0.864103  0.814686 0.948060     0.871795     0.856410
+    2              3956             1006              12              3  0.669980           0.618280  0.606522 0.694999     0.326087     0.910473
+    3              4222              740              12              3  0.677027           0.696385  0.635790 0.783778     0.732558     0.660211
+    4              3819             1143              12              3  0.665792           0.644201  0.645886 0.757459     0.513627     0.774775
+    5              3630             1332              12              3  0.477477           0.614217  0.477278 0.708091     0.894428     0.334006
+
+Mean ± standard deviation:
+accuracy: 0.670 ± 0.135
+balanced_accuracy: 0.687 ± 0.104
+macro_f1: 0.636 ± 0.121
+auroc: 0.778 ± 0.101
+sensitivity: 0.668 ± 0.244
+specificity: 0.707 ± 0.229

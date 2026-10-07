@@ -1,0 +1,877 @@
+reference_normalized,total_recordings,healthy_recordings,dysarthria_recordings,healthy_speakers,dysarthria_speakers,total_speakers,shared_between_groups
+no,98,57,41,7,8,15,True
+yes,95,60,35,7,8,15,True
+one,49,33,16,7,8,15,True
+go,28,13,15,7,8,15,True
+up,41,25,16,7,7,14,True
+rock,49,33,16,7,6,13,True
+bad,41,25,16,6,7,13,True
+right,39,24,15,7,6,13,True
+down,35,23,12,7,6,13,True
+here,23,11,12,6,7,13,True
+play,21,11,10,7,6,13,True
+beat,54,44,10,7,5,12,True
+pat,49,40,9,7,5,12,True
+feet,48,37,11,6,6,12,True
+feed,45,36,9,7,5,12,True
+read,45,37,8,7,5,12,True
+meat,43,31,12,7,5,12,True
+left,39,30,9,7,5,12,True
+dark,37,22,15,7,5,12,True
+park,37,25,12,7,5,12,True
+bit,34,22,12,7,5,12,True
+menu,29,19,10,6,6,12,True
+swarm,29,18,11,7,5,12,True
+corn,28,20,8,7,5,12,True
+tip,25,18,7,7,5,12,True
+snoop,21,11,10,6,6,12,True
+range,20,12,8,7,5,12,True
+trouble,20,12,8,7,5,12,True
+urgent,20,12,8,7,5,12,True
+weed,20,13,7,7,5,12,True
+wish,20,13,7,7,5,12,True
+whoop,17,11,6,7,5,12,True
+him,56,34,22,6,5,11,True
+four,45,34,11,6,5,11,True
+six,44,38,6,6,5,11,True
+shoot,40,27,13,5,6,11,True
+two,40,32,8,7,4,11,True
+sip,39,30,9,7,4,11,True
+cake,37,29,8,6,5,11,True
+storm,37,28,9,7,4,11,True
+warm,34,22,12,7,4,11,True
+and,32,20,12,6,5,11,True
+sticks,31,24,7,7,4,11,True
+forward,30,22,8,6,5,11,True
+sheet,30,25,5,7,4,11,True
+back,28,20,8,6,5,11,True
+floor,27,20,7,7,4,11,True
+tear,27,18,9,7,4,11,True
+take,26,17,9,6,5,11,True
+form,22,17,5,7,4,11,True
+it was a good win for us,21,13,8,6,5,11,True
+delta,20,13,7,7,4,11,True
+jacket,20,13,7,7,4,11,True
+loop,20,11,9,6,5,11,True
+pretty,20,12,8,6,5,11,True
+rocks,20,13,7,7,4,11,True
+the misguided souls have lost their way,20,12,8,6,5,11,True
+alpha,19,11,8,6,5,11,True
+single,19,11,8,6,5,11,True
+sleep,19,13,6,7,4,11,True
+students watched as he got out,19,12,7,6,5,11,True
+where were you while we were away,19,11,8,6,5,11,True
+rave,18,10,8,6,5,11,True
+share,18,13,5,7,4,11,True
+sprinkle,18,10,8,6,5,11,True
+stick,18,10,8,6,5,11,True
+trade,18,10,8,6,5,11,True
+troop,18,10,8,6,5,11,True
+prior,17,11,6,7,4,11,True
+rain,17,11,6,7,4,11,True
+car,16,11,5,7,4,11,True
+jagged,15,10,5,7,4,11,True
+air,54,41,13,6,4,10,True
+much,45,34,11,6,4,10,True
+lip,42,34,8,6,4,10,True
+leak,41,31,10,6,4,10,True
+rake,40,35,5,7,3,10,True
+seven,39,31,8,6,4,10,True
+three,37,30,7,6,4,10,True
+side,36,28,8,6,4,10,True
+slip,36,22,14,5,5,10,True
+spark,36,20,16,6,4,10,True
+pit,30,22,8,6,4,10,True
+boot,28,20,8,6,4,10,True
+select,27,21,6,6,4,10,True
+he dresses himself in an ancient black frock coat,24,16,8,7,3,10,True
+this is not a program of socialized medicine,23,14,9,6,4,10,True
+eight,22,14,8,5,5,10,True
+heart,21,12,9,6,4,10,True
+jungle,21,13,8,7,3,10,True
+the books are very expensive,21,14,7,6,4,10,True
+mike,20,12,8,6,4,10,True
+usually minus several buttons,20,15,5,7,3,10,True
+grow,19,15,4,7,3,10,True
+hotel,19,13,6,6,4,10,True
+store,19,15,4,7,3,10,True
+the job provides many benefits,19,12,7,6,4,10,True
+charlie,18,11,7,6,4,10,True
+i expect well bounce back this week,18,11,7,6,4,10,True
+i looked up and noticed two old men,18,11,7,6,4,10,True
+i was conscious all the time,18,11,7,6,4,10,True
+jane may earn more money by working hard,18,10,8,6,4,10,True
+nothing has been done yet to take advantage of the enabling legislation,18,11,7,6,4,10,True
+the quick brown fox jumps over the lazy dog,18,13,5,7,3,10,True
+this was easy for us,18,11,7,6,4,10,True
+yet he still thinks as swiftly as ever,18,13,5,7,3,10,True
+a long flowing beard clings to his chin,17,12,5,7,3,10,True
+echo,17,9,8,5,5,10,True
+gadget,17,12,5,7,3,10,True
+group,17,13,4,7,3,10,True
+the islands are sparsely populated,17,11,6,6,4,10,True
+we gathered shells on the beach,17,12,5,7,3,10,True
+white,17,12,5,7,3,10,True
+bright sunshine shimmers on the ocean,16,9,7,5,5,10,True
+light,16,10,6,6,4,10,True
+the prospect of cutting back spending is an unpleasant one for any governor,16,10,6,6,4,10,True
+two other cases also were under advisement,16,11,5,6,4,10,True
+we have often urged him to walk more and smoke less,16,12,4,7,3,10,True
+youd be better off taking a cold shower,16,10,6,6,4,10,True
+bubble,15,10,5,6,4,10,True
+hum,15,7,8,5,5,10,True
+trace,15,10,5,6,4,10,True
+double,14,9,5,6,4,10,True
+fat,39,32,7,6,3,9,True
+five,38,33,5,6,3,9,True
+chop,34,28,6,6,3,9,True
+nine,34,29,5,6,3,9,True
+spit,33,25,8,5,4,9,True
+zero,33,28,5,6,3,9,True
+ship,29,25,4,6,3,9,True
+tile,29,25,4,6,3,9,True
+seed,27,22,5,6,3,9,True
+at,26,17,9,6,3,9,True
+dread,26,19,7,6,3,9,True
+suit,24,17,7,6,3,9,True
+born,20,18,2,7,2,9,True
+farm,20,17,3,7,2,9,True
+oscar,19,13,6,6,3,9,True
+torn,19,16,3,7,2,9,True
+both injuries were to the same leg,18,14,4,6,3,9,True
+fear,18,11,7,6,3,9,True
+loyal,18,14,4,6,3,9,True
+november,18,11,7,6,3,9,True
+rich,18,12,6,6,3,9,True
+shy,18,13,5,6,3,9,True
+sigh,18,8,10,5,4,9,True
+the museum hires musicians every evening,18,12,6,6,3,9,True
+uniform,18,12,6,6,3,9,True
+when he speaks his voice is just a bit cracked and quivers a trifle,18,15,3,7,2,9,True
+although always alone we survive,17,12,5,6,3,9,True
+are your grades higher or lower than nancys,17,11,6,6,3,9,True
+before thursdays exam review every formula,17,12,5,6,3,9,True
+being able to dance can help too,17,12,5,6,3,9,True
+carl lives in a lively home,17,12,5,6,3,9,True
+fruit,17,10,7,5,4,9,True
+horn,17,12,5,6,3,9,True
+night after night they received annoying phone calls,17,12,5,6,3,9,True
+people who value themselves are lifes winners,17,12,5,6,3,9,True
+she is thinner than i am,17,11,6,5,4,9,True
+start,17,11,6,6,3,9,True
+victor,17,11,6,6,3,9,True
+we have an excellent team,17,12,5,6,3,9,True
+wicked,17,10,7,5,4,9,True
+but he always answers banana oil,16,11,5,6,3,9,True
+each one volunteered to jump first,16,12,4,6,3,9,True
+explore,16,10,6,6,3,9,True
+grandfather likes to be modern in his language,16,14,2,7,2,9,True
+just one side got wet,16,11,5,6,3,9,True
+nothing is as offensive as innocence,16,11,5,6,3,9,True
+top,16,11,5,6,3,9,True
+bear,15,7,8,4,5,9,True
+dagger,15,12,3,7,2,9,True
+fair,15,9,6,5,4,9,True
+hate,15,8,7,4,5,9,True
+he slowly takes a short walk in the open air each day,15,12,3,7,2,9,True
+if you destroy confidence in banks you do something to the economy he said,15,11,4,6,3,9,True
+pot,15,9,6,5,4,9,True
+raid,15,9,6,5,4,9,True
+tango,15,11,4,6,3,9,True
+the humidity is overwhelming there,15,11,4,6,3,9,True
+the little schoolhouse stood empty,15,10,5,6,3,9,True
+toot,15,9,6,5,4,9,True
+train,15,9,6,5,4,9,True
+twice each day he plays skillfully and with zest upon our small organ,15,11,4,6,3,9,True
+everything went real smooth the sheriff said,14,10,4,6,3,9,True
+except in the winter when the ooze or snow or ice prevents,14,11,3,7,2,9,True
+juliet,14,9,5,5,4,9,True
+lead,14,9,5,6,3,9,True
+near,14,10,4,6,3,9,True
+quebec,14,8,6,5,4,9,True
+steer,14,10,4,6,3,9,True
+youre used to being on the field,14,10,4,6,3,9,True
+zip,14,10,4,6,3,9,True
+dot,13,9,4,6,3,9,True
+pay,12,7,5,5,4,9,True
+sitting,11,7,4,5,4,9,True
+chair,35,29,6,6,2,8,True
+cheer,31,27,4,6,2,8,True
+hat,30,25,5,5,3,8,True
+red,26,23,3,6,2,8,True
+sin,24,19,5,5,3,8,True
+goat,23,18,5,5,3,8,True
+dead,20,18,2,6,2,8,True
+in,20,17,3,6,2,8,True
+pad,20,16,4,6,2,8,True
+it eventually became a rather proud claim,18,14,4,6,2,8,True
+this is a period of transition for me,18,14,4,6,2,8,True
+he wrapped the package hastily,17,13,4,6,2,8,True
+aluminum silverware can often be flimsy,16,13,3,6,2,8,True
+both figures would go higher in later years,16,12,4,6,2,8,True
+written,16,12,4,6,2,8,True
+best,15,12,3,6,2,8,True
+darn,15,11,4,6,2,8,True
+hark,15,10,5,5,3,8,True
+papa,15,12,3,6,2,8,True
+rage,15,12,3,6,2,8,True
+reek,15,11,4,6,2,8,True
+swing your arm as high as you can,15,12,3,6,2,8,True
+the pair of shoes was new,15,12,3,6,2,8,True
+their house is grey and white,15,9,6,5,3,8,True
+thorn,15,9,6,5,3,8,True
+when all else fails use force,15,11,4,6,2,8,True
+area,14,11,3,6,2,8,True
+cart,14,10,4,6,2,8,True
+dont ask me to carry an oily rag like that,14,11,3,6,2,8,True
+dress,14,11,3,6,2,8,True
+mush,14,9,5,5,3,8,True
+some hotels are available nearby,14,12,2,6,2,8,True
+the wait for work can be very long,14,11,3,6,2,8,True
+they carried me off on the stretcher,14,10,4,6,2,8,True
+giving those who observe him a pronounced feeling of the utmost respect,13,10,3,6,2,8,True
+hill,13,9,4,6,2,8,True
+hitting,13,9,4,5,3,8,True
+i feel i can play this weekend,13,7,6,5,3,8,True
+league,13,9,4,5,3,8,True
+part,13,8,5,5,3,8,True
+slicker,13,10,3,6,2,8,True
+stubble,13,11,2,7,1,8,True
+glow,12,8,4,5,3,8,True
+knitting,12,8,4,5,3,8,True
+tell,12,9,3,6,2,8,True
+will robin wear a yellow lily,12,9,3,6,2,8,True
+bug,11,6,5,4,4,8,True
+hem,11,8,3,6,2,8,True
+lick,11,8,3,5,3,8,True
+she wore warm fleecy woolen overalls,10,8,2,6,2,8,True
+nice,39,34,5,6,1,7,True
+fork,30,29,1,6,1,7,True
+blend,26,24,2,6,1,7,True
+bread,23,21,2,6,1,7,True
+hand,22,21,1,6,1,7,True
+see,22,20,2,6,1,7,True
+said,20,18,2,6,1,7,True
+court,17,16,1,6,1,7,True
+nobody really expects to evacuate,17,13,4,6,1,7,True
+bed,15,14,1,6,1,7,True
+ive kept it with me ever since,15,13,2,6,1,7,True
+the results were very disappointing,15,13,2,6,1,7,True
+there was only one decision to be made,15,11,4,6,1,7,True
+he further proposed grants of an unspecified sum for experimental hospitals,14,10,4,5,2,7,True
+i just try to do my best,14,10,4,5,2,7,True
+it also provides for funds to clear slums and help colleges build dormitories,14,10,4,5,2,7,True
+ned,14,12,2,6,1,7,True
+please open the window quickly,14,12,2,6,1,7,True
+rest,14,12,2,6,1,7,True
+spain,14,11,3,5,2,7,True
+you want him to do well,14,12,2,6,1,7,True
+alimony harms a divorced mans wealth,13,10,3,5,2,7,True
+brought,13,9,4,5,2,7,True
+day after day some new episode is reported,13,11,2,6,1,7,True
+error,13,11,2,6,1,7,True
+he asked you for a loan,13,11,2,6,1,7,True
+i tried to tell people in the community,13,9,4,5,2,7,True
+if you are losing water replace it immediately,13,9,4,5,2,7,True
+in fact our whole defensive unit did a good job,13,11,2,6,1,7,True
+its fun to roast marshmallows on a gas burner,13,12,1,6,1,7,True
+only lawyers love millionaires,13,11,2,6,1,7,True
+we bought a brown chair,13,11,2,6,1,7,True
+why yell or worry over silly items,13,11,2,6,1,7,True
+all the big baseball players get traded,12,7,5,4,3,7,True
+briar,12,9,3,5,2,7,True
+catch,12,10,2,6,1,7,True
+he will allow a rare lie,12,10,2,6,1,7,True
+i scrubbed the floors thoroughly,12,8,4,5,2,7,True
+im willing to experiment for the first time,12,10,2,6,1,7,True
+kitten,12,9,3,5,2,7,True
+lend,12,11,1,6,1,7,True
+one validated acts of school districts,12,9,3,5,2,7,True
+pile,12,9,3,5,2,7,True
+root,12,7,5,4,3,7,True
+sergeant,12,8,4,4,3,7,True
+sierra,12,11,1,6,1,7,True
+some prefer the traditional steel kind,12,11,1,6,1,7,True
+the train approached the depot slowly,12,9,3,5,2,7,True
+thought,12,10,2,5,2,7,True
+travel is about the only leisure we have,12,11,1,6,1,7,True
+walk,12,10,2,6,1,7,True
+yankee,12,9,3,5,2,7,True
+you can ride stagecoach,12,11,1,6,1,7,True
+young people participate in athletic activities,12,11,1,6,1,7,True
+a good attitude is unbeatable,11,8,3,5,2,7,True
+chip,11,9,2,5,2,7,True
+dart,11,6,5,4,3,7,True
+lock,11,10,1,6,1,7,True
+sand,11,9,2,5,2,7,True
+seeds,11,6,5,4,3,7,True
+slay,11,8,3,5,2,7,True
+sway,11,7,4,5,2,7,True
+the hotel owner shrugged,11,10,1,6,1,7,True
+though,11,9,2,6,1,7,True
+beta,10,8,2,5,2,7,True
+bloat,10,7,3,5,2,7,True
+fate,10,6,4,4,3,7,True
+fee,10,8,2,5,2,7,True
+foxtrot,10,6,4,5,2,7,True
+hair,10,8,2,5,2,7,True
+of,10,6,4,4,3,7,True
+race,10,7,3,5,2,7,True
+fill,8,7,1,6,1,7,True
+shop,8,7,1,6,1,7,True
+were,8,3,5,3,4,7,True
+harm,22,20,2,5,1,6,True
+eat,16,15,1,5,1,6,True
+blow,15,13,2,4,2,6,True
+tread,13,11,2,5,1,6,True
+bat,12,10,2,5,1,6,True
+bitter,12,10,2,5,1,6,True
+glitter,12,10,2,5,1,6,True
+he is definitely a notch above us,12,10,2,5,1,6,True
+he really crucified him he nailed it for a yard loss,12,11,1,5,1,6,True
+night,12,10,2,5,1,6,True
+shell,12,10,2,5,1,6,True
+wicker,12,11,1,5,1,6,True
+xray,12,10,2,5,1,6,True
+city,11,9,2,5,1,6,True
+cycle,11,9,2,5,1,6,True
+i have had my bell rung,11,9,2,5,1,6,True
+ray,11,10,1,5,1,6,True
+the box contained three sweaters,11,7,4,4,2,6,True
+the dolphins swam around our boat,11,8,3,4,2,6,True
+we rode horseback to the farm,11,7,4,4,2,6,True
+a roll of wire lay near the wall,10,7,3,4,2,6,True
+goose,10,7,3,5,1,6,True
+harp,10,5,5,3,3,6,True
+lake,10,9,1,5,1,6,True
+lee,10,9,1,5,1,6,True
+mitten,10,8,2,5,1,6,True
+my sister made the flowered curtains,10,8,2,4,2,6,True
+sign,10,6,4,4,2,6,True
+fed,9,8,1,5,1,6,True
+fitting,9,7,2,4,2,6,True
+kilo,9,7,2,5,1,6,True
+peer,9,6,3,3,3,6,True
+snake,9,8,1,5,1,6,True
+ticker,7,6,1,5,1,6,True
+sink,14,11,3,3,2,5,True
+did dad do academic bidding,11,9,2,4,1,5,True
+bitten,10,8,2,4,1,5,True
+the owners regularly look for plumbing leaks,10,8,2,4,1,5,True
+barn,9,7,2,4,1,5,True
+ham,9,5,4,3,2,5,True
+she had your dark suit in greasy wash water all year,9,4,5,2,3,5,True
+there is a treehouse up above,9,7,2,4,1,5,True
+golf,8,6,2,4,1,5,True
+lima,8,5,3,3,2,5,True
+nod,8,6,2,4,1,5,True
+sit,8,6,2,4,1,5,True
+rate,7,5,2,4,1,5,True
+swore,7,5,2,4,1,5,True
+witty,7,5,2,4,1,5,True
+trait,6,3,3,3,2,5,True
+nest,6,4,2,3,1,4,True
+knee,5,3,2,2,1,3,True
+through,5,2,3,1,2,3,True
+nut,4,2,2,2,1,3,True
+wit,4,2,2,2,1,3,True
+mere,3,1,2,1,2,3,True
+mut,3,1,2,1,2,3,True
+tie,3,2,1,2,1,3,True
+two other cases were also under advisement,4,2,2,1,1,2,True
+bag,3,2,1,1,1,2,True
+galore,12,12,0,7,0,7,False
+reap,32,32,0,6,0,6,False
+cash,28,28,0,6,0,6,False
+bill,26,26,0,6,0,6,False
+rise,25,25,0,6,0,6,False
+hold,23,23,0,6,0,6,False
+short,19,19,0,6,0,6,False
+cork,18,18,0,6,0,6,False
+rip,18,18,0,6,0,6,False
+geese,16,16,0,6,0,6,False
+weep,16,16,0,6,0,6,False
+leap,15,15,0,6,0,6,False
+neat,15,15,0,6,0,6,False
+wise,14,14,0,6,0,6,False
+suddenly my reflexes are gone,13,13,0,6,0,6,False
+he took me out one day,12,12,0,6,0,6,False
+her classical performance gained critical acclaim,12,12,0,6,0,6,False
+quicker,12,12,0,6,0,6,False
+this is a good place though small,12,12,0,6,0,6,False
+a quick touchdown resulted,11,11,0,6,0,6,False
+biblical scholars argue history,11,11,0,6,0,6,False
+coconut cream pie makes a nice dessert,11,11,0,6,0,6,False
+critical equipment needs proper maintenance,11,11,0,6,0,6,False
+dont do charlies dirty dishes,11,11,0,6,0,6,False
+i think im full of this stuff,11,11,0,6,0,6,False
+life is short and precious,11,11,0,6,0,6,False
+most young rise early every morning,11,11,0,6,0,6,False
+muck,11,11,0,6,0,6,False
+port,11,11,0,6,0,6,False
+ride,11,11,0,6,0,6,False
+she doesnt like to have it hanging around,11,11,0,6,0,6,False
+show,11,11,0,6,0,6,False
+shred,11,11,0,6,0,6,False
+sketch,11,11,0,6,0,6,False
+stretch,11,11,0,6,0,6,False
+thats what life is really all about,11,11,0,6,0,6,False
+the four brothers looked identical,11,11,0,6,0,6,False
+trespassers can be prosecuted and fined,11,11,0,6,0,6,False
+who knows what youll discover about yourself,11,11,0,6,0,6,False
+ash,10,10,0,6,0,6,False
+bend,10,10,0,6,0,6,False
+bumper,10,10,0,6,0,6,False
+he,10,10,0,6,0,6,False
+her dark hair is combed casually,10,10,0,6,0,6,False
+i dont think its a good idea,10,10,0,6,0,6,False
+i havent seen that friend for years,10,10,0,6,0,6,False
+i loved every minute of it,10,10,0,6,0,6,False
+me,10,10,0,6,0,6,False
+romeo,10,10,0,6,0,6,False
+sing,10,10,0,6,0,6,False
+sport,10,10,0,6,0,6,False
+temper,10,10,0,6,0,6,False
+thread,10,10,0,6,0,6,False
+threat,10,10,0,6,0,6,False
+we just didnt look good,10,10,0,6,0,6,False
+beast,9,9,0,6,0,6,False
+center,9,9,0,6,0,6,False
+fort,9,9,0,6,0,6,False
+sheep,9,9,0,6,0,6,False
+the little girls cut lacy valentines,9,9,0,6,0,6,False
+toe,9,9,0,6,0,6,False
+bender,8,8,0,6,0,6,False
+steak,24,24,0,5,0,5,False
+hail,23,23,0,5,0,5,False
+bunch,22,22,0,5,0,5,False
+wax,22,22,0,5,0,5,False
+coat,19,19,0,5,0,5,False
+had,19,19,0,5,0,5,False
+heat,18,18,0,5,0,5,False
+hash,17,17,0,5,0,5,False
+row,16,16,0,5,0,5,False
+sort,16,16,0,5,0,5,False
+is,15,15,0,5,0,5,False
+add,14,14,0,5,0,5,False
+it,13,13,0,5,0,5,False
+tall,13,13,0,5,0,5,False
+seat,12,12,0,5,0,5,False
+we know we can score,12,12,0,5,0,5,False
+low,11,11,0,5,0,5,False
+pet,11,11,0,5,0,5,False
+tail,11,11,0,5,0,5,False
+the plot is laced with mysterious incidents,11,11,0,5,0,5,False
+cakes,10,10,0,5,0,5,False
+he has played very well,10,10,0,5,0,5,False
+help celebrate your brothers success,10,10,0,5,0,5,False
+look for pockets of black sand,10,10,0,5,0,5,False
+only the most accomplished artists obtain popularity,10,10,0,5,0,5,False
+shed,10,10,0,5,0,5,False
+shot,10,10,0,5,0,5,False
+tort,10,10,0,5,0,5,False
+we are the largest of the four states,10,10,0,5,0,5,False
+we selected places where families will be welcome,10,10,0,5,0,5,False
+academic aptitude guarantees your diploma,9,9,0,5,0,5,False
+addition and subtraction are learned skills,9,9,0,5,0,5,False
+alfalfa is healthy for you,9,9,0,5,0,5,False
+basketball can be an entertaining sport,9,9,0,5,0,5,False
+begin by trying to speak up more,9,9,0,5,0,5,False
+catastrophic economic cutbacks neglect the poor,9,9,0,5,0,5,False
+chocolate and roses never fail as a romantic gift,9,9,0,5,0,5,False
+code,9,9,0,5,0,5,False
+elderly people are often excluded,9,9,0,5,0,5,False
+even a simple vocabulary contains symbols,9,9,0,5,0,5,False
+fender,9,9,0,5,0,5,False
+gold can be found anywhere,9,9,0,5,0,5,False
+he played basketball there while working toward a law degree,9,9,0,5,0,5,False
+i also can be quite vocal,9,9,0,5,0,5,False
+i called two different painters,9,9,0,5,0,5,False
+i tell you it was wonderful,9,9,0,5,0,5,False
+i was pleased with the way things went,9,9,0,5,0,5,False
+it requires no big investment,9,9,0,5,0,5,False
+it was very popular with our fans,9,9,0,5,0,5,False
+mom strongly dislikes appetizers,9,9,0,5,0,5,False
+now im living exactly as i choose,9,9,0,5,0,5,False
+old,9,9,0,5,0,5,False
+she,9,9,0,5,0,5,False
+shin,9,9,0,5,0,5,False
+the fish swam across the pond,9,9,0,5,0,5,False
+the marriage went well from the start,9,9,0,5,0,5,False
+they will take a wedding trip later,9,9,0,5,0,5,False
+those people are much quicker than i am,9,9,0,5,0,5,False
+timber,9,9,0,5,0,5,False
+we all sat down and relaxed,9,9,0,5,0,5,False
+yet he remains the fiercest of competitors,9,9,0,5,0,5,False
+any contributions will be greatly appreciated,8,8,0,5,0,5,False
+be prepared for odd behavior from friends,8,8,0,5,0,5,False
+beam,8,8,0,5,0,5,False
+cat,8,8,0,5,0,5,False
+dice,8,8,0,5,0,5,False
+do they make any money,8,8,0,5,0,5,False
+duck,8,8,0,5,0,5,False
+guess,8,8,0,5,0,5,False
+have no fear if you come alone,8,8,0,5,0,5,False
+i didnt know where they were coming from,8,8,0,5,0,5,False
+i had no desire to change my ways,8,8,0,5,0,5,False
+i wanted to be an actress,8,8,0,5,0,5,False
+it was a great meeting,8,8,0,5,0,5,False
+knock,8,8,0,5,0,5,False
+lit,8,8,0,5,0,5,False
+member,8,8,0,5,0,5,False
+range was a vital detail,8,8,0,5,0,5,False
+renter,8,8,0,5,0,5,False
+sender,8,8,0,5,0,5,False
+stimulating discussions keep students attention,8,8,0,5,0,5,False
+tender,8,8,0,5,0,5,False
+the job also covers a number of other items,8,8,0,5,0,5,False
+the prowler wore a ski mask for disguise,8,8,0,5,0,5,False
+the sun died at night,8,8,0,5,0,5,False
+try to work things out,8,8,0,5,0,5,False
+tug,8,8,0,5,0,5,False
+we have a big house,8,8,0,5,0,5,False
+we talked about the situation,8,8,0,5,0,5,False
+gash,7,7,0,5,0,5,False
+i scream to warm up my voice,7,7,0,5,0,5,False
+mile,7,7,0,5,0,5,False
+racks,7,7,0,5,0,5,False
+she suggested we all have dinner together,7,7,0,5,0,5,False
+the singers finger had a splinter,7,7,0,5,0,5,False
+dill,6,6,0,5,0,5,False
+lies,6,6,0,5,0,5,False
+pitting,6,6,0,5,0,5,False
+sicker,6,6,0,5,0,5,False
+wives,6,6,0,5,0,5,False
+flicker,5,5,0,5,0,5,False
+her position covers a number of daily tasks common to any social director,10,10,0,4,0,4,False
+ease,9,9,0,4,0,4,False
+cheese,8,8,0,4,0,4,False
+etiquette mandates compliance with existing regulations,8,8,0,4,0,4,False
+hatch,8,8,0,4,0,4,False
+litter,8,8,0,4,0,4,False
+punch,8,8,0,4,0,4,False
+snort,8,8,0,4,0,4,False
+so if anybody solicits by phone make sure you mail the dough to the above,8,8,0,4,0,4,False
+that pickpocket was caught redhanded,8,8,0,4,0,4,False
+this he added brought about petty jealousies and petty personal grievances,8,8,0,4,0,4,False
+zulu,8,8,0,4,0,4,False
+a few may be hard to find,7,7,0,4,0,4,False
+arm,7,7,0,4,0,4,False
+challenge each generals intelligence,7,7,0,4,0,4,False
+charm,7,7,0,4,0,4,False
+dash,7,7,0,4,0,4,False
+dial,7,7,0,4,0,4,False
+did you eat yet,7,7,0,4,0,4,False
+ember,7,7,0,4,0,4,False
+food,7,7,0,4,0,4,False
+gas,7,7,0,4,0,4,False
+it was a huge part of my life,7,7,0,4,0,4,False
+knife,7,7,0,4,0,4,False
+munch,7,7,0,4,0,4,False
+pink,7,7,0,4,0,4,False
+pork,7,7,0,4,0,4,False
+regular attendance is seldom required,7,7,0,4,0,4,False
+she will order the wine,7,7,0,4,0,4,False
+that,7,7,0,4,0,4,False
+the eastern coast is a place for pure pleasure and excitement,7,7,0,4,0,4,False
+the family requests that flowers be omitted,7,7,0,4,0,4,False
+the new highway is straight and empty,7,7,0,4,0,4,False
+the snow blew into large drifts,7,7,0,4,0,4,False
+the store serves meals every day,7,7,0,4,0,4,False
+there is definitely some ligament damage in his knee,7,7,0,4,0,4,False
+waste,7,7,0,4,0,4,False
+we experience distress and frustration obtaining our degrees,7,7,0,4,0,4,False
+we knew we werent doing well,7,7,0,4,0,4,False
+weve done it in the past,7,7,0,4,0,4,False
+when you are through write a clean report,7,7,0,4,0,4,False
+wine,7,7,0,4,0,4,False
+you have to expect a few bad calls,7,7,0,4,0,4,False
+aid,6,6,0,4,0,4,False
+beg that guard for one gallon of gas,6,6,0,4,0,4,False
+bun,6,6,0,4,0,4,False
+chap,6,6,0,4,0,4,False
+end,6,6,0,4,0,4,False
+fell,6,6,0,4,0,4,False
+fit,6,6,0,4,0,4,False
+get a calico cat to keep,6,6,0,4,0,4,False
+he took heart and played,6,6,0,4,0,4,False
+hell sell them by the box,6,6,0,4,0,4,False
+lender,6,6,0,4,0,4,False
+mock,6,6,0,4,0,4,False
+pete,6,6,0,4,0,4,False
+rakes,6,6,0,4,0,4,False
+sake,6,6,0,4,0,4,False
+the lack of heat compounded the tenants grievances,6,6,0,4,0,4,False
+ticks,6,6,0,4,0,4,False
+we shelled clams for the chowder,6,6,0,4,0,4,False
+win,6,6,0,4,0,4,False
+beef,5,5,0,4,0,4,False
+droop,5,5,0,4,0,4,False
+pill,5,5,0,4,0,4,False
+hall,20,20,0,3,0,3,False
+all,9,9,0,3,0,3,False
+handle it any way you have to,7,7,0,3,0,3,False
+the legislature met to judge the state of public education,7,7,0,3,0,3,False
+was,7,7,0,3,0,3,False
+ball,6,6,0,3,0,3,False
+barbs gold bracelet was a graduation present,6,6,0,3,0,3,False
+beep,6,6,0,3,0,3,False
+he cant abide mistakes in his own game,6,6,0,3,0,3,False
+reef,6,6,0,3,0,3,False
+sheer,6,6,0,3,0,3,False
+the structures housing the apartments are of masonry and frame construction,6,6,0,3,0,3,False
+were all disappointed with our start,6,6,0,3,0,3,False
+wipe,6,6,0,3,0,3,False
+ape,5,5,0,3,0,3,False
+both cars were slightly damaged,5,5,0,3,0,3,False
+burn,5,5,0,3,0,3,False
+cable confirmation it said translated,5,5,0,3,0,3,False
+continental drift is a geological theory,5,5,0,3,0,3,False
+forks,5,5,0,3,0,3,False
+full,5,5,0,3,0,3,False
+it was time to go up myself,5,5,0,3,0,3,False
+last years gas shortage caused steep price increases,5,5,0,3,0,3,False
+liquor,5,5,0,3,0,3,False
+luke,5,5,0,3,0,3,False
+spring street is straight ahead,5,5,0,3,0,3,False
+there is such a program,5,5,0,3,0,3,False
+there was no confirmation of such massive assaults from independent sources,5,5,0,3,0,3,False
+they received all the things they needed,5,5,0,3,0,3,False
+theyll never fit me again,5,5,0,3,0,3,False
+those musicians harmonize marvelously,5,5,0,3,0,3,False
+upgrade your status to reflect your wealth,5,5,0,3,0,3,False
+whip,5,5,0,3,0,3,False
+why,5,5,0,3,0,3,False
+wide,5,5,0,3,0,3,False
+ambidextrous pickpockets accomplish more,4,4,0,3,0,3,False
+brawn,4,4,0,3,0,3,False
+eyes,4,4,0,3,0,3,False
+leaks,4,4,0,3,0,3,False
+sight,4,4,0,3,0,3,False
+term,4,4,0,3,0,3,False
+we got drenched from the uninterrupted rain,4,4,0,3,0,3,False
+deer,3,3,0,3,0,3,False
+lair,3,3,0,3,0,3,False
+i can read,8,0,8,0,2,2,False
+cold,6,6,0,2,0,2,False
+pain,6,6,0,2,0,2,False
+fall,5,5,0,2,0,2,False
+a fire in straw makes a quick blaze,4,4,0,2,0,2,False
+bank,4,4,0,2,0,2,False
+big,4,4,0,2,0,2,False
+boat,4,4,0,2,0,2,False
+bow,4,4,0,2,0,2,False
+can you paint a room or a portrait,4,4,0,2,0,2,False
+carl lives in a lovely home,4,0,4,0,2,2,False
+cliffs display was misplaced on the screen,4,4,0,2,0,2,False
+each,4,4,0,2,0,2,False
+fill that canteen with fresh spring water,4,4,0,2,0,2,False
+final,4,4,0,2,0,2,False
+fold,4,4,0,2,0,2,False
+gable,4,4,0,2,0,2,False
+grandmother outgrew her upbringing in petticoats,4,4,0,2,0,2,False
+he noted the fact carefully,4,4,0,2,0,2,False
+i like them because they are practical,4,4,0,2,0,2,False
+i saw him a few weeks later,4,4,0,2,0,2,False
+i soon found myself muttering to the walls,4,4,0,2,0,2,False
+it fell out of his pocket,4,4,0,2,0,2,False
+it looked like an accordion,4,4,0,2,0,2,False
+its impossible to deal with bureaucracy,4,4,0,2,0,2,False
+only two seemed really appealing to me,4,4,0,2,0,2,False
+page,4,4,0,2,0,2,False
+panel,4,4,0,2,0,2,False
+pant,4,4,0,2,0,2,False
+ramp,4,4,0,2,0,2,False
+rattle,4,4,0,2,0,2,False
+reach,4,4,0,2,0,2,False
+shawl,4,4,0,2,0,2,False
+she makes other trips for pleasure,4,4,0,2,0,2,False
+she was not seriously injured,4,4,0,2,0,2,False
+so he hides the mayonnaise,4,4,0,2,0,2,False
+spray,4,4,0,2,0,2,False
+table,4,4,0,2,0,2,False
+the staff deserves a lot of credit working down here under real obstacles,4,4,0,2,0,2,False
+we got married right here,4,4,0,2,0,2,False
+we must be ready for any needed sacrifice,4,4,0,2,0,2,False
+with,4,4,0,2,0,2,False
+young and old also got together,4,4,0,2,0,2,False
+able,3,3,0,2,0,2,False
+bagpipes and bongos are musical instruments,3,3,0,2,0,2,False
+bash,3,3,0,2,0,2,False
+crawl,3,3,0,2,0,2,False
+eat your raisins outdoors on the porch steps,3,3,0,2,0,2,False
+feel,3,3,0,2,0,2,False
+fool,3,3,0,2,0,2,False
+lax,3,3,0,2,0,2,False
+peach,3,3,0,2,0,2,False
+phone,3,3,0,2,0,2,False
+porcupines resemble sea urchins,3,3,0,2,0,2,False
+preach,3,3,0,2,0,2,False
+sat,3,3,0,2,0,2,False
+sold,3,3,0,2,0,2,False
+street,3,3,0,2,0,2,False
+the,3,3,0,2,0,2,False
+we just sat there giggling,3,3,0,2,0,2,False
+weave,3,3,0,2,0,2,False
+you wished to know all about my grandfather,3,3,0,2,0,2,False
+aches,2,2,0,2,0,2,False
+paint,2,2,0,2,0,2,False
+screech,2,2,0,2,0,2,False
+teach,2,2,0,2,0,2,False
+the golfing fathers ruled in his favor,2,2,0,2,0,2,False
+thigh,2,2,0,2,0,2,False
+whitecapped waves covered the entire bay,2,2,0,2,0,2,False
+grain,4,4,0,1,0,1,False
+bird,3,0,3,0,1,1,False
+a,2,2,0,1,0,1,False
+a large household needs lots of appliances,2,2,0,1,0,1,False
+absurd,2,2,0,1,0,1,False
+an official deadline cannot be postponed,2,2,0,1,0,1,False
+at twilight on the twelfth day well have chablis,2,2,0,1,0,1,False
+ban,2,2,0,1,0,1,False
+bog,2,2,0,1,0,1,False
+booth,2,2,0,1,0,1,False
+both,2,2,0,1,0,1,False
+bought,2,2,0,1,0,1,False
+bowl,2,2,0,1,0,1,False
+brain,2,2,0,1,0,1,False
+bull,2,2,0,1,0,1,False
+bust,2,2,0,1,0,1,False
+but,2,2,0,1,0,1,False
+cable,2,2,0,1,0,1,False
+call,2,2,0,1,0,1,False
+cement is measured in cubic yards,2,2,0,1,0,1,False
+contract,2,2,0,1,0,1,False
+contrast,2,2,0,1,0,1,False
+converge,2,2,0,1,0,1,False
+creature,2,2,0,1,0,1,False
+doctors prescribe drugs too freely,2,2,0,1,0,1,False
+drop,2,0,2,0,1,1,False
+dusk,2,2,0,1,0,1,False
+except in the winter when the ozone or snow or ice prevents,2,0,2,0,1,1,False
+fable,2,2,0,1,0,1,False
+file,2,2,0,1,0,1,False
+find,2,2,0,1,0,1,False
+fudge,2,2,0,1,0,1,False
+funnel,2,2,0,1,0,1,False
+gently place jims foam sculpture in the box,2,2,0,1,0,1,False
+glib,2,2,0,1,0,1,False
+globe,2,2,0,1,0,1,False
+good service should be rewarded by big tips,2,2,0,1,0,1,False
+grange,2,2,0,1,0,1,False
+grave,2,2,0,1,0,1,False
+grope,2,2,0,1,0,1,False
+hiring the wife for ones company may win her taxaided retirement income,2,2,0,1,0,1,False
+hispanic costumes are quite colorful,2,2,0,1,0,1,False
+i can play this weekend,2,0,2,0,1,1,False
+i got into acting by accident,2,2,0,1,0,1,False
+i said id put on weight,2,2,0,1,0,1,False
+impress,2,2,0,1,0,1,False
+intact,2,2,0,1,0,1,False
+its beauty that surrounds you,2,2,0,1,0,1,False
+its hard to tell an original from a forgery,2,2,0,1,0,1,False
+judge,2,2,0,1,0,1,False
+liar,2,0,2,0,1,1,False
+lid,2,2,0,1,0,1,False
+mabel,2,2,0,1,0,1,False
+map,2,2,0,1,0,1,False
+maybe its taking longer to get things squared away than the bankers expected,2,2,0,1,0,1,False
+most weeds grow strong and fast,2,2,0,1,0,1,False
+my instructions desperately need updating,2,2,0,1,0,1,False
+nap,2,2,0,1,0,1,False
+naval,2,2,0,1,0,1,False
+nothing is as offensive as ignorance,2,0,2,0,1,1,False
+now,2,0,2,0,1,1,False
+now im living exactly as i chose,2,2,0,1,0,1,False
+observe,2,2,0,1,0,1,False
+occur,2,2,0,1,0,1,False
+old telephone booths arent easy to find,2,2,0,1,0,1,False
+paid,2,2,0,1,0,1,False
+pale,2,2,0,1,0,1,False
+porch,2,2,0,1,0,1,False
+preserve,2,2,0,1,0,1,False
+primitive tribes have an upbeat attitude,2,2,0,1,0,1,False
+pull,2,2,0,1,0,1,False
+rat,2,2,0,1,0,1,False
+refer,2,2,0,1,0,1,False
+repress,2,2,0,1,0,1,False
+reserve,2,2,0,1,0,1,False
+retract,2,2,0,1,0,1,False
+sable,2,2,0,1,0,1,False
+scorch,2,2,0,1,0,1,False
+serve,2,2,0,1,0,1,False
+several paintings were sold at the auction,2,2,0,1,0,1,False
+she is not sure what to expect,2,2,0,1,0,1,False
+she was really shook up,2,2,0,1,0,1,False
+shut,2,2,0,1,0,1,False
+slim,2,2,0,1,0,1,False
+space,2,2,0,1,0,1,False
+sparkle,2,0,2,0,1,1,False
+stable,2,2,0,1,0,1,False
+stall,2,2,0,1,0,1,False
+strange,2,2,0,1,0,1,False
+subtract,2,2,0,1,0,1,False
+super,2,2,0,1,0,1,False
+suppress,2,2,0,1,0,1,False
+tap,2,2,0,1,0,1,False
+that plant needs more water,2,2,0,1,0,1,False
+thats the name of the game,2,2,0,1,0,1,False
+thats what i thought it was at first,2,2,0,1,0,1,False
+the misprint provoked an immediate disclaimer,2,2,0,1,0,1,False
+the structures housing the apartments are of,2,2,0,1,0,1,False
+they either walked or were driven,2,2,0,1,0,1,False
+they will take a wedding trip together,2,2,0,1,0,1,False
+this railroads future is in the west,2,2,0,1,0,1,False
+told,2,2,0,1,0,1,False
+unfortunately there is still little demand for broccoli and cauliflower,2,2,0,1,0,1,False
+wages are a key issue,2,2,0,1,0,1,False
+wall,2,2,0,1,0,1,False
+wart,2,2,0,1,0,1,False
+we had a picnic on the beach,2,2,0,1,0,1,False
+we just dont,2,2,0,1,0,1,False
+we saw three deer and a badger,2,2,0,1,0,1,False
+will you please describe the idiotic predicament,2,2,0,1,0,1,False
+are,1,1,0,1,0,1,False
+beg,1,1,0,1,0,1,False
+bite,1,0,1,0,1,1,False
+boast,1,1,0,1,0,1,False
+book,1,1,0,1,0,1,False
+boone,1,1,0,1,0,1,False
+bran,1,0,1,0,1,1,False
+conserve,1,1,0,1,0,1,False
+damp,1,1,0,1,0,1,False
+depress,1,1,0,1,0,1,False
+deserve,1,1,0,1,0,1,False
+flying standby can be practical if you want to save money,1,1,0,1,0,1,False
+foe,1,1,0,1,0,1,False
+foil,1,1,0,1,0,1,False
+for,1,1,0,1,0,1,False
+he dressed himself in an ancient black frock coat,1,0,1,0,1,1,False
+he really crucified himself he nailed it for a yard loss,1,1,0,1,0,1,False
+hid,1,1,0,1,0,1,False
+ink,1,1,0,1,0,1,False
+it was only,1,0,1,0,1,1,False
+its about,1,0,1,0,1,1,False
+ladle,1,1,0,1,0,1,False
+limb,1,1,0,1,0,1,False
+lisp,1,1,0,1,0,1,False
+list,1,1,0,1,0,1,False
+mall,1,1,0,1,0,1,False
+mill,1,1,0,1,0,1,False
+oh,1,0,1,0,1,1,False
+owl,1,1,0,1,0,1,False
+paste,1,1,0,1,0,1,False
+peas,1,1,0,1,0,1,False
+saddle,1,1,0,1,0,1,False
+sap,1,1,0,1,0,1,False
+score,1,1,0,1,0,1,False
+sell,1,0,1,0,1,1,False
+so if anybody solicits by phone make sure you mail the dough to,1,1,0,1,0,1,False
+spade,1,1,0,1,0,1,False
+split,1,1,0,1,0,1,False
+sweet,1,0,1,0,1,1,False
+tea,1,1,0,1,0,1,False
+the hotel man,1,0,1,0,1,1,False
+the strike spread through much of the state,1,1,0,1,0,1,False
+they could walk ride on a bus or be driven,1,1,0,1,0,1,False
+witch,1,0,1,0,1,1,False
