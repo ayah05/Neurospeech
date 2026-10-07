@@ -21,3 +21,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Derived analysis datasets
+data/matched_perfect_asr_transcripts.csv
+data/strict_shared_prompt_subset.csv
